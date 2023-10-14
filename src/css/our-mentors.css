@@ -1,0 +1,43 @@
+.mentors-section {
+  background: #121212;}
+
+.mentors-title {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.12;
+    letter-spacing: -0.04em;
+    margin-bottom: 50px;
+}
+
+.mentors-title-part {
+    color: #BEA69E;
+}
+
+.mentors-list {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.mentors-photo {
+    margin-bottom: 16px;
+}
+.mentors-name {
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.14;
+
+}
+
+.mentors-experience {
+    color: rgba(255, 255, 255, 0.50);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+}
