@@ -1,0 +1,161 @@
+:root {
+  --text-color: #fff;
+  --background-color: #000;
+  --color-icon-pink: #bea69e;
+  --color-icon-grey: #414141;
+}
+
+.container {
+  padding: 150px 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .container {
+    padding: 100px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 80px 0;
+  }
+}
+
+.reviews-section {
+  background-color: var(--background-color);
+  font-family: DM Sans;
+  color: var(--text-color);
+  margin: 0 auto;
+  width: 1440px;
+  padding: 0 100px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .reviews-section {
+    width: 768px;
+    padding: 0 64px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .reviews-section {
+    width: 320px;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+}
+
+.reviews-head {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 1.13;
+  letter-spacing: -0.04em;
+  margin-bottom: 50px;
+  width: 171px;
+}
+
+.reviews-list {
+  display: flex;
+  gap: 20px;
+}
+
+.reviews-item {
+  flex-basis: calc((100%-20px) / 2);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .reviews-item {
+    width: 704px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .reviews-item {
+    width: 335px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .reviews-item:last-child {
+    display: none;
+  }
+}
+
+.reviews-article {
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 20px;
+}
+
+.reviews-div {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .reviews-div {
+    flex-wrap: wrap;
+  }
+}
+
+.reviews-image {
+  border-radius: 100px;
+}
+
+.reviews-div-head {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.reviews-head-student {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.reviews-head-about {
+  font-size: 14px;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+
+.reviews-prg {
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+}
+
+.reviews-icon-div {
+  margin-left: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .reviews-icon-div {
+    margin: 0 auto;
+  }
+}
+
+.reviews-icon-list {
+  display: flex;
+  gap: 4px;
+}
+
+.reviews-icon {
+  fill: var(--color-icon-grey);
+  width: 20px;
+  height: 20px;
+  right: 20px;
+}
+
+.reviews-icon-pink {
+  fill: var(--color-icon-pink);
+  width: 20px;
+  height: 20px;
+  right: 20px;
+}

@@ -54,6 +54,10 @@
     width: 390px;
 }
 
+.hero-happy-block {
+    display: flex;
+}
+
 .hero-block-imgs {
     position: relative;
     height: 54px;
@@ -159,7 +163,7 @@
 @media screen and (min-width: 768px) and (max-width: 1279px) {
     .hero-main-block {
         flex-direction: column;
-        padding: 50px 155px 0 32px;
+        padding: 64px 155px 0 32px;
     }
 
     .hero-title {
@@ -188,12 +192,104 @@
     }
 
     .hero-img {
-        margin-left: 123px ;
+        margin-left: auto;
         width: 393px;
         height: 434px;
     }
 }
 
-@media screen and (min-width: 375px) {
-     
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .hero-title {
+        font-size: 40px;
+        line-height: 1.1;
+        letter-spacing: -1.6px;
+    }
+
+    .hero-title-italic {
+        font-size: 40px;
+        line-height: 1.1;
+        letter-spacing: -1.6px;
+    }
+
+    .hero-subtitle {
+        font-size: 14px;
+        line-height: 1.28;
+        letter-spacing: -0.28px;
+        max-width: 295px;  
+        margin-bottom: 40px; 
+    }
+
+    .hero-block-imgs {
+        max-width: 109px;
+        height: 44px;
+        margin-bottom: 4px;
+        margin-right: 40px;
+    }
+
+    .hero-happy-stud {
+        font-size: 14px;
+        line-height: 1.28;
+        letter-spacing: -0.56px;
+        width: 67px;
+    }
+
+    .hero-block-students {
+        flex-direction: row;
+        margin-right: 0;
+        width: 89px;
+        gap: 4px;
+        align-items: center;
+    }
+
+    .icon-arrow {
+        width: 18px;
+        height: 9px;
+    }
+
+    .hero-block-rev {
+        height: 44px;
+    }
+
+    .hero-vector-block {
+        width: 44px;
+        height: 44px;
+    }
+
+    .hero-rev-accounting {
+        gap: 4px;
+    }
+
+    .hero-happy-block {
+        flex-direction: column;
+    }
+
+    .hero-photo {
+        width: 44px;
+        height: 44px;
+    }
+
+    .hero-img-2 {
+        left: 32px;
+    }
+
+    .hero-img-3 {
+        left: 64px;
+    }
+
+    .hero-img {
+        width: 259px;
+        height: 314px;
+        margin: 0 auto;
+    }
+
+    .hero-main-block {
+        flex-direction: column;
+        padding: 40px 20px 0;
+    }
+
+    .hero-info {
+        margin-right: 0;
+        max-width: 295px;
+    }
 }
+     
