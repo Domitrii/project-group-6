@@ -88,27 +88,34 @@ img {
     justify-content: center;
     gap: 72px;
 }
-@media screen and (min-width: 768px) {
+
+
+@media screen and (min-width: 1280px) and (max-width: 1439px)
+{
+ .mentors-section {
+     padding-top: 120px;
+     padding-bottom: 120px;
+ }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px)  {
     .mentors-list {
         flex-direction: row;
         flex-wrap: wrap;
         column-gap: 24px;
         row-gap: 64px;
         justify-content: center;
+        
     }
 
-    .team-card-color {
-        width: calc((100% - 24px) / 2);
-    }
 }
 
-@media screen and (min-width: 1158px) {
-    .team-card-color {
-        width: calc((100% - 72px) / 4);
-    }
+@media screen and (min-width: 375px) {
+  
 
     .mentors-section {
         padding-top: 120px;
         padding-bottom: 120px;
+        
     }
 }
