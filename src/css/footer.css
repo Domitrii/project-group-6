@@ -144,8 +144,6 @@ h3, p {
 }
 
 
-
-
 @media screen and (min-width: 320px) {
   .footer {
     max-width: 320px;
@@ -272,7 +270,7 @@ h3, p {
 
 @media screen and (min-width: 1158px) {
   .footer {
-    max-width: 1280px;
+    max-width: 1440px;
   }
 
 
@@ -287,5 +285,29 @@ h3, p {
 
   .form-label {
     margin: 50px 0px 74px 191px;
+  }
+
+  .left-p-address {
+    margin: 50px 0px 133px 100px;
+  }
+
+  .link-check {
+    margin-left: 100px;
+  }
+
+  .down-footer {
+    margin: 0;
+  }
+
+  .public {
+    margin-left: 100px;
+  }
+
+  .input-footer {
+    width: 216px;
+  }
+
+  .all-right-reserved {
+    margin-right: 100px;
   }
 }
