@@ -12,9 +12,10 @@
 
 .about-content {
     display: flex;
+    justify-content: center;
+    align-items: flex-start;
     gap: 40px;
 }
-
 
 .about-title {
     color: #FFFFFF;
@@ -68,7 +69,8 @@
 
     .about-content {
         display: flex;
-        flex-wrap: wrap;
+        /*flex-wrap: wrap;*/
+        flex-direction: column;
         gap: 50px;
     }
 
@@ -102,7 +104,8 @@
 
     .about-content {
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
+        /*flex-wrap: wrap;*/
         gap: 40px;
         width: 100%;
     }
