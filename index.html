@@ -16,7 +16,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;1,9..40,400&display=swap" rel="stylesheet">
-    <script type="module" crossorigin src="/project-group-6/assets/index-7fa0347a.js"></script>
+    <script type="module" crossorigin src="/project-group-6/assets/index-47e810f0.js"></script>
     <link rel="stylesheet" href="/project-group-6/assets/index-348dff47.css">
   </head>
   <body>
@@ -34,11 +34,11 @@
                     <use href="/project-group-6/assets/icons-7ca91267.svg#icon-photo-camera"></use>
                 </svg>
             </a>
-            <a onclick="">
+            <button id="openButton">
                 <svg class="header-icon" width="32" height="22">
                     <use href="/project-group-6/assets/icons-7ca91267.svg#burger-menu"></use>
                 </svg>
-            </a>
+            </button>
             <ul class="header_nav_menu_ul">
                 <li><a href="#about-us" class="header_nav_menu_links">About us</a></li>
                 <li><a href="#courses" class="header_nav_menu_links">Our courses</a></li>
@@ -508,10 +508,10 @@
     </div>
   </div>
 </footer>
-    <div class="backdrop is-open">
+    <div class="backdrop" id="overlay">
   <div class="menu-container">
     <button class="menu-close" type="button">
-        <svg class="menu-close-icon" width="16" height="16">
+        <svg class="menu-close-icon" width="16" height="16" id="closeButton">
           <use href="/project-group-6/assets/icons-7ca91267.svg#icon-Vector-1"></use>
         </svg>
     </button>
