@@ -183,7 +183,8 @@
   padding: 16px 84px;
   justify-content: center;
   align-items: center;
-  border: 1px solid #FFF;
+  border: none;
+  transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
 }
 @media screen and (min-width: 768px) and (max-width: 1280px) {
   .header_sign_up {
@@ -224,4 +225,9 @@ svg.header-camera:active {
 }
 button#openButton {
   display: contents;
+}
+
+.header_sign_up:hover {
+  background-color: rgba(29, 29, 29, 1);
+  color: rgba(190, 166, 158, 1);
 }

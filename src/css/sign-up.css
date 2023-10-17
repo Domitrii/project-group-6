@@ -133,6 +133,7 @@
     line-height: 1.55;
     text-transform: uppercase;
     text-align: center;
+    transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
 }
 
 .form-policy {
@@ -331,3 +332,7 @@
 
 
 
+.form-button-title:hover {
+    background-color: rgba(29, 29, 29, 1);
+    color: rgba(190, 166, 158, 1);
+}
